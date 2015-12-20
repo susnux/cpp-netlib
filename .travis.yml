@@ -79,8 +79,8 @@ notifications:
   slack:
     secure: Y7lLjqZ83+b/jaJ5+EKwvgCDeERi4bVbDn9tLp8sieTdu+ENsPI+JmLYSXZXPpe7JrItrXW6uJJXN2wG1h7au4mpVVTghd31HBzuzrqVxDphWPhp16NYzvbAgQQRBXvFVvfSdW/Kb/n2fX6xDApY0t6vNREb/GKg0GyzESb4ZjU=
 
-env:
-  global:
-   # The next declaration is the encrypted COVERITY_SCAN_TOKEN, created
-   #   via the "travis encrypt" command using the project repo's public key
-   - secure: "s7+KDpzPjp0gBrlVfRXdXDNqOsjHVIkB2vyFd5JG8X0e+L2gaAJqH4dm4JaVNWOgo+s7DTIgj8n3r9WL7IQtaGmajQCZj6J6qTRQV3V87iH/wKihCNr5eJEGr1OSa5v01VLWDB5mp4pQsEqyeDfTv+McPL0eofO1K2LMZIweFQk="
+# env:
+#   global:
+#    # The next declaration is the encrypted COVERITY_SCAN_TOKEN, created
+#    #   via the "travis encrypt" command using the project repo's public key
+#    - secure: "s7+KDpzPjp0gBrlVfRXdXDNqOsjHVIkB2vyFd5JG8X0e+L2gaAJqH4dm4JaVNWOgo+s7DTIgj8n3r9WL7IQtaGmajQCZj6J6qTRQV3V87iH/wKihCNr5eJEGr1OSa5v01VLWDB5mp4pQsEqyeDfTv+McPL0eofO1K2LMZIweFQk="
