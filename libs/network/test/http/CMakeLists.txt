@@ -95,7 +95,7 @@ if (Boost_FOUND)
 	ws2_32 wsock32)
     endif()
     if (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
-      target_link_libraries(cpp-netlib-http-server_async_run_stop_concurrency rt)
+      target_link_libraries(cpp-netlib-http-server_async_run_stop_concurrency pthread rt)
     endif()
     set_target_properties(cpp-netlib-http-server_async_run_stop_concurrency
       PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CPP-NETLIB_BINARY_DIR}/tests)
